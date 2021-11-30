@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class PipePipe implements PipeTransform {
 
   transform(c:string): string {
-    return "**"+c+"**";
+    return "**"+c+"**g";
   }
 
 }
